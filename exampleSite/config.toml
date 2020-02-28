@@ -1,6 +1,6 @@
-baseURL = "www.example.com"
-languageCode = "en-us"
-title = "Hugo Serif Theme"
+baseURL = "mauriciovegaenterprise-tramites-en-tiempo-record.netlify.com"
+languageCode = "es-co"
+title = "Mauricio Vega Enterprise: Tus trámites notariales en tiempo récord"
 themesDir = "../.."
 theme = "hugo-serif-theme"
 
@@ -12,38 +12,38 @@ theme = "hugo-serif-theme"
   [params.logo]
     mobile = "images/logo-mobile.svg"
     standard  = "images/logo.svg"
-    alt = "Serif - A Hugo Business Theme"
+    alt = "Mauricio Vega"
 
   [params.homepage_meta_tags]
-    meta_description = "Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
-    meta_og_title = "Hugo Serif Theme"
+    meta_description = "Mauricio Vega Enterprise: Tus trámites notariales en tiempo récord"
+    meta_og_title = "Mauricio Vega Enterprise: Tus trámites notariales en tiempo récord"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-serif.netlify.com"
+    meta_og_url = "https://mauriciovegaenterprise-tramites-en-tiempo-record.netlify.com/"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
-    meta_og_description = "Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
+    meta_og_description = "Te acompañamos para realizar tus trámites de notaría en menos tiempo, ahorrando dinero y sin necesidad de hacer filas. Tenemos cobertura permanente en Medellín y Bucaramanga."
     meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+    meta_twitter_site = "@mventerprise"
+    meta_twitter_creator = "@mventerprise"
 
 [menu]
   # Main Menu
   [[menu.main]]
-    name = "Services"
+    name = "Servicios"
     url = "/services/"
       weight = 1
 
   [[menu.main]]
-      name = "Team"
+      name = "Equipo"
       url = "/team/"
       weight = 2
 
   # Footer Menu
   [[menu.footer]]
-    name = "Home"
+    name = "Inicio"
     url = "/"
       weight = 1
 
   [[menu.footer]]
-    name = "Contact"
+    name = "Contacto"
     url = "/contact/"
       weight = 2
